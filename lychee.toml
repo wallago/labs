@@ -4,7 +4,6 @@
 exclude = ["^https://github\\.com/wallago/labs"]
 # Build output and the direnv cache hold Markdown that isn't ours.
 exclude_path = [
-  "target",
   ".direnv",
   "node_modules",
   "dist",
