@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(just --list*)",
+      "Bash(just ci*)",
+      "Bash(nix flake check*)",
+      "Bash(nix eval*)",
+      "Bash(nix build --dry-run*)",
+      "Bash(nix search nixpkgs*)",
+      "Bash(statix check*)",
+      "Bash(deadnix*)",
+      "Bash(just check*)",
+      "Bash(just test*)",
+      "Bash(just lint*)",
+      "Bash(just fmt*)",
+      "Bash(just build*)",
+      "Bash(pnpm install*)",
+      "Bash(pnpm exec tsc*)",
+      "Bash(pnpm exec vitest run*)",
+      "Bash(pnpm exec biome*)",
+      "Bash(pnpm exec vite build*)",
+      "Bash(pnpm list*)",
+      "Bash(pnpm why*)",
+      "Bash(editorconfig-checker*)",
+      "Bash(typos*)",
+      "Bash(lychee*)",
+      "Bash(committed*)",
+      "Bash(git cliff*)",
+      "Bash(actionlint*)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git show*)"
+    ],
+    "deny": [
+      "Bash(git push*)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}

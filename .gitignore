@@ -1,0 +1,13 @@
+# ── Web / pnpm ───────────────────────────────────────────────
+node_modules/
+dist/
+*.tsbuildinfo
+
+# NOTE: pnpm-lock.yaml is committed on purpose
+# ── Nix ──────────────────────────────────────────────────────
+# Build result symlinks (result, result-bin, result-1, …)
+/result
+/result-*
+
+# ── Local development environment ────────────────────────────
+.direnv/
