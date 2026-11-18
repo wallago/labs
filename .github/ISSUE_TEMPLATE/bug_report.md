@@ -33,7 +33,6 @@ Steps to reproduce the behavior:
 <!--- Please fill the following fields -->
 
 - Operating system: <!--- e.g. Arch GNU/Linux x86_64 6.2.1-arch1-1 -->
-- Rust version: <!--- e.g. rustc 1.69.0-nightly (7281249a1 2023-02-27) -->
 - Project version: <!--- e.g. 0.1.0 -->
 
 **Additional context**
